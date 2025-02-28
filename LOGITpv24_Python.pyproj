@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1a7ff73-5b30-4efe-9282-75a6cf4cdb18</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund1(Lineaarsed_programmid).py</StartupFile>
+    <StartupFile>Tund2(date_calendar).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,8 @@
   <ItemGroup>
     <Compile Include="LOGITpv24_Python.py" />
     <Compile Include="Tund1%28Lineaarsed_programmid%29.py" />
+    <Compile Include="Tund2%28date_calendar%29.py" />
+    <Compile Include="Vigade_otsing.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Funktsioonid.txt" />

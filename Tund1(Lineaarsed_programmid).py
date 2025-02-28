@@ -25,3 +25,39 @@ print(f"Laual on jäänud {onjäänud} komme")
 #Ülesanne 4
 
 #Ülesanne 5
+
+#Ülesanne 6
+
+#Ülesanne 7
+a1=randint(0,100)
+a2=randint(0,100)
+a3=randint(0,100)
+a4=randint(0,100)
+a5=randint(0,100)
+keskmine=(a1+a2+a3+a4+a5)/5
+print(f"Arvud olid: {a1}, {a2}, {a3}, {a4}, {a5}. Nende keskmine on {keskmine}. ")
+
+#Ülesanne 8
+#1
+tekst="""   
+    @..@
+   (----)
+  ( \__/ )
+  ^^ "" ^^  """
+print(tekst)
+#2
+print("    @..@")
+print("   (----)")
+print("  ( \__/ )")
+print("""  ^^ "" ^^  """)
+
+#Ülesanne 9
+a=randint(1,100)
+b=randint(1,100)
+c=randint(1,100)
+
+P=a+b+c
+print(f"a={a}, b={b}, c={c}, P={P}")
+
+#Ülesanne 10
+
