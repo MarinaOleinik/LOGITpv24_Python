@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1a7ff73-5b30-4efe-9282-75a6cf4cdb18</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund3(If_elif_else).py</StartupFile>
+    <StartupFile>Tund4(While_For).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,9 @@
     <Compile Include="LOGITpv24_Python.py" />
     <Compile Include="Tund1%28Lineaarsed_programmid%29.py" />
     <Compile Include="Tund2%28date_calendar%29.py" />
+    <Compile Include="Tund2.2%28Valikaused_Ruutvõrrand%29.py" />
     <Compile Include="Tund3%28If_elif_else%29.py" />
+    <Compile Include="Tund4%28While_For%29.py" />
     <Compile Include="Vigade_otsing.py" />
   </ItemGroup>
   <ItemGroup>
