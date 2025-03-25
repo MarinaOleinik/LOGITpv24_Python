@@ -1,6 +1,68 @@
+from random import *
+#7
+N=1
+for i in range(4):
+    N*=10
+    N+=randint(0,9)
+    print(N)
+#3
+for küsimuse_nr in range(10):
+    a=randint(1,50)
+    b=randint(1,50)
+    õige_vastus=a+b
+    print(f"{a}+{b}", end="")
+    p=0
+    õ=0
+    vastus=0
+    while p<5 and vastus!=õige_vastus:
+        vastus=int(input("="))
+        if vastus==õige_vastus: 
+            print("Tubli!")
+            õ+=1
+        p+=1
+    print(f"Õige vastus: {õige_vastus}")
+print("???????")
 
 
 
+#5
+N=int(input("N:" ))
+for j in range(N):
+    for i in range(N):
+        if i==j or i==N-j-1:
+            print("X",end=" ")
+        else:
+            print("O",end=" ")
+    print()
+print()
+#2
+summa=0
+j=0
+while True:
+    while True:
+        try:
+            a=float(input("a: "))
+            break
+        except:
+            print("viga!")
+    summa+=a
+    j+=1
+    if j==10: break
+print(f"Arvude summa: {summa}")
+#-------
+summa = 0
+while True:
+    number = input("Sisesta arv (vajuta Enter lõpetamiseks): ")
+    if number == "": break
+    try:
+        number=float(number)
+        summa += number 
+    except:
+        print("viga")   
+print(f"Arvude summa: {summa}")
+
+
+#Näidis:
 # a=0
 # while a==0:
 #     print(a)

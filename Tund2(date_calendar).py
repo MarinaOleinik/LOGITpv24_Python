@@ -69,6 +69,7 @@ tana4 = tana.strftime("%b-%d-%Y")
 print(tana4)
 
 päev=tana.day
+print(päev)
 kuu=tana.month
 aasta=tana.year
 
