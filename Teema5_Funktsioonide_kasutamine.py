@@ -1,5 +1,11 @@
-from Teema5_Kasutajate_fun import *
+sõnad=[]
+for i in range(5):
+    sõnad.append(input(f"{i+1}. sõna: "))
+print(sõnad)
 
+
+from Teema5_Kasutajate_fun import *
+#try except!
 a=float(input("Arv1:"))
 b=float(input("Arv2:"))
 t=input("Tehe:")
@@ -18,3 +24,9 @@ if aasta>0:
         print(f"{aasta} on liigaasta")
     else:
         print(f"{aasta} ei ole liigaasta")
+
+# square() kasutamine
+#Kontroll while True ja try except...
+a=float(input("Ruudu külg= "))
+
+S,P,d=square(a)

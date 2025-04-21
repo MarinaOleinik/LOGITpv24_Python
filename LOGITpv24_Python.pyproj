@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1a7ff73-5b30-4efe-9282-75a6cf4cdb18</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Teema5_Funktsioonide_kasutamine.py</StartupFile>
+    <StartupFile>Teema6_dict.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LOGITpv24_Python.py" />
+    <Compile Include="Module_Palgad.py" />
+    <Compile Include="Palgad.py" />
     <Compile Include="Teema5_Funktsioonide_kasutamine.py" />
     <Compile Include="Teema5_Kasutajate_fun.py" />
+    <Compile Include="Teema6_dict.py" />
     <Compile Include="Too_4_3.py" />
     <Compile Include="Too_4_5_Isikukood.py" />
     <Compile Include="Tund1%28Lineaarsed_programmid%29.py" />
