@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1a7ff73-5b30-4efe-9282-75a6cf4cdb18</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Teema6_dict.py</StartupFile>
+    <StartupFile>Teema7_txt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,7 @@
     <Compile Include="Teema5_Funktsioonide_kasutamine.py" />
     <Compile Include="Teema5_Kasutajate_fun.py" />
     <Compile Include="Teema6_dict.py" />
+    <Compile Include="Teema7_txt.py" />
     <Compile Include="Too_4_3.py" />
     <Compile Include="Too_4_5_Isikukood.py" />
     <Compile Include="Tund1%28Lineaarsed_programmid%29.py" />
@@ -39,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Funktsioonid.txt" />
+    <Content Include="Loetelu.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
