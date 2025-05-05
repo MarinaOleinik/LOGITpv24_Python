@@ -1,10 +1,2 @@
-﻿esimene
-teine
-kolmas
-neljas
-viies
-kuues
-seitsmes
-kaheksas
-üheksas
-kümnes
+﻿{'nimi': 'u', 'email': 'uu', 'number': '777'}
+{'nimi': 'c', 'email': 'cc', 'number': '555'}
