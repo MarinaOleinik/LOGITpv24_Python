@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1a7ff73-5b30-4efe-9282-75a6cf4cdb18</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Teema8.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="funktsioonid.py" />
     <Compile Include="LOGITpv24_Python.py" />
+    <Compile Include="main.py" />
     <Compile Include="Module_Palgad.py" />
     <Compile Include="Palgad.py" />
     <Compile Include="Teema5_Funktsioonide_kasutamine.py" />
     <Compile Include="Teema5_Kasutajate_fun.py" />
     <Compile Include="Teema6_dict.py" />
     <Compile Include="Teema7_txt.py" />
+    <Compile Include="Teema8%28Tkinter%29.py" />
     <Compile Include="Teema8.py" />
     <Compile Include="Too_4_3.py" />
     <Compile Include="Too_4_5_Isikukood.py" />
@@ -43,6 +46,7 @@
     <Content Include="coconut.png" />
     <Content Include="Funktsioonid.txt" />
     <Content Include="Loetelu.txt" />
+    <Content Include="Poke-Ball.ico" />
     <Content Include="rahvaarv.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
