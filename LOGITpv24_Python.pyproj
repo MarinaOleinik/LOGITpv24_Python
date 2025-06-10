@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f1a7ff73-5b30-4efe-9282-75a6cf4cdb18</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>1.osa_pygame.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1.osa_pygame.py" />
     <Compile Include="funktsioonid.py" />
     <Compile Include="LOGITpv24_Python.py" />
     <Compile Include="main.py" />
@@ -46,6 +47,8 @@
     <Content Include="coconut.png" />
     <Content Include="Funktsioonid.txt" />
     <Content Include="Loetelu.txt" />
+    <Content Include="ope.jpg" />
+    <Content Include="ope.png" />
     <Content Include="Poke-Ball.ico" />
     <Content Include="rahvaarv.txt" />
   </ItemGroup>
